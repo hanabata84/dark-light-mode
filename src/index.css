@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: #121213;
+}
+
+.App {
+    width: 550px;
+    height: 550px;
+    background-color: #282D35;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 91px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.react-logo {
+    width: 65px;
+    padding-right: 10px;
+}
+
+.logo-head {
+    color: #61DAFB;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.nav-light {
+    color: #918E9B;
+}
+
+nav p {
+    font-weight: 600;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main {
+    margin-left: 20px;
+    margin-top: 60px;
+    background: url(./assets/reactjs-icon2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main ul {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.main li {
+    list-style-image: url(./assets/list-bullet-elipse.png);
+    padding-bottom: 20px;
 }
